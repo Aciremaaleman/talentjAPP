@@ -1,3 +1,6 @@
+body{
+    background-color: #eae6ff;
+}
 p, h6 {
     color: #fff;
 }
@@ -21,7 +24,7 @@ img {
 }
 .btnSubmit{
     font-weight: 600;
-    width: 50%;
+    width: 35%;
     color: #282726;
     background-color: #fff;
     border: none;
@@ -30,6 +33,10 @@ img {
 }
 .btnSubmit:hover{
     background-color: #fca70c;
+}
+.btnSubmit > a {
+    text-decoration: none;
+    color: #282726;
 }
 
 @media only screen and (max-width: 760px) {
