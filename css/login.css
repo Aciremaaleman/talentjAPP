@@ -1,3 +1,6 @@
+body{
+    background-color: #eae6ff;
+}
 header{
    background-color: #342961;
    top: 0%;
@@ -30,13 +33,13 @@ header{
 }
 .login-form-2{
     padding: 9%;
-    background:#794382;
+    background:#fff;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
 }
 .login-form-2 h3{
     text-align: center;
     margin-bottom:12%;
-    color: #fff;
+    color: #342961;
 }
 .btnSubmit{
     font-weight: 600;
@@ -48,7 +51,20 @@ header{
     padding:2%;
 }
 .btnSubmit:hover{
-    background-color: #e6b2c7;
+    background-color: #fca70c;
+}
+.btnSubmit2 {
+    font-weight: 600;
+    width: 50%;
+    color: #fff;
+    background-color: #282726;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+
+}
+.btnSubmit2:hover{
+    background-color: #fca70c;
 }
 .btnForgetPwd{
     color: #fff;
@@ -57,7 +73,16 @@ header{
 }
 .btnForgetPwd:hover{
     text-decoration:none;
-    color: #e6b2c7;
+    color: #fca70c;
+}
+.btnForgetPwd2 {
+    color: #282726;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd2:hover{
+    text-decoration:none;
+    color: #fca70c;
 }
 
 @media only screen and (max-width: 760px) {
