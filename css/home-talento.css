@@ -2,6 +2,9 @@ img {
     width: 15%;
     height: 15%;
 }
+h5 {
+    color: #fff;
+}
 .container-home {
     margin-top: 5%;
 }
@@ -14,6 +17,13 @@ img {
     height: 40vh;
     width: 100%;
     border: 1px solid black;
+}
+.icon {
+    width: 50%;
+    height: 50%;
+}
+.card-body {
+    background-color: #342961;
 }
 
 @media only screen and (max-width: 760px) {
