@@ -1,0 +1,38 @@
+img {
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+}
+.container-succes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 10%;
+    padding: 5%;
+}
+.btnSuccess :hover{
+    background-color: #fca70c;
+}
+.btnSuccess  a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 760px) {
+    img {
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+    }
+    .container-succes{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        margin-top: 10%;
+        padding: 5%;
+        margin-top: 20%;
+    }
+}
