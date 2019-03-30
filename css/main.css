@@ -18,6 +18,14 @@ img {
 h4 {
     text-align: center;
 }
+a {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
 
 @media only screen and (max-width: 760px) {
     img {
